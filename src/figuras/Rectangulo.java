@@ -14,4 +14,8 @@ public class Rectangulo {
 	public String toString() {
 		return "Rectangulo [ancho=" + ancho + ", largo=" + largo + "]";
 	}
+	
+	public Double calcularPerimetro() {
+		return this.ancho*2 + this.largo*2;
+	}
 }
