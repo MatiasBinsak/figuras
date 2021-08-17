@@ -18,4 +18,8 @@ public class Rectangulo {
 	public Double calcularPerimetro() {
 		return this.ancho*2 + this.largo*2;
 	}
+	
+	public Double getArea(){
+	return ancho*largo;
+	}
 }
